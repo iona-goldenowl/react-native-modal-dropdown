@@ -13,7 +13,6 @@ import {
   Dimensions,
   View,
   Text,
-  ListView,
   TouchableWithoutFeedback,
   TouchableNativeFeedback,
   TouchableOpacity,
@@ -21,7 +20,7 @@ import {
   Modal,
   ActivityIndicator,
 } from 'react-native';
-
+import ListView from 'deprecated-react-native-listview';
 import PropTypes from 'prop-types';
 
 const TOUCHABLE_ELEMENTS = [
